@@ -106,7 +106,6 @@ function load(){
 	
 	echo
 	'<div class="contentBox type_employment">
-		<div class="nubHead"></div>
 		<div class="postHeader">
 			<div class="postAccent postJob fl"></div>
 			<div class="fl">

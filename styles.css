@@ -1,0 +1,143 @@
+/* synonmymous to _3brg */
+.allLeftColumn { 
+	float: left;
+	margin: auto;
+	width: 283px;
+	display:block;
+	list-style: none;
+	zoom: 1;
+	line-height: 1.28;
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	color: #333;
+	text-align: left;
+	direction: ltr;
+	margin-top: 10px;
+	
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 10px;
+}
+.clearFix {
+	list-style: none;
+	margin: 0;
+	padding:0;
+	zoom:1;
+	display: block;
+	line-height: 1.28;
+	color: #333;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+ol {
+	display: block;
+	list-style: none;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+	padding: 0px;
+}
+
+li {
+	text-align: -webkit-match-parent;
+}
+
+.fbTimelineUnit {
+	color: #37404e;
+	
+}
+
+div[role="article"] {
+	margin: auto;
+}
+
+.photoHeader {
+	background: #f6f7f8;
+	border-bottom: 1px solid #e9eaed;
+	display: block;
+	
+}
+
+.innerPhotoHeader {
+	color:#6a7480;
+	font-size: 12px;
+	font-weight:700;
+	padding-left:14px;
+	line-height: 38px;
+	position:relative;
+	text-align:-webkit-match-parent;
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+	display: inline-block;
+}
+
+.photoWord{
+	color: #6a7480;
+	cursor: pointer;
+	text-decoration: none;
+	line-height: 38px;
+}
+
+.dotNumber {
+	font-size:11px;
+	font-weight:normal;
+	
+}
+
+.uiGrid {
+	margin: 0 0 -2px;
+	border-collapse: separate;
+	border-spacing:3px;
+	border: 0px solid black;
+	border-color:gray;
+		
+}
+
+/* need to make row spacing 3px; */
+.individualPhotoContainer {
+	width: 103px;
+	height: 103px;
+	direction:ltr;
+	position:relative;
+	overflow:hidden;
+	/* display:block; */
+
+}
+
+.uiScaledImage {
+	height: 103px;
+	width: 100%;
+	min-height: 100%;
+	position:relative;
+	border: 0;
+	cursor: pointer;
+	text-decoration: none;
+	zoom: 1;
+}
+
+tr {
+	border-spacing:3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 13px;
+	color: #333;
+	margin:0;
+	padding:0;
+}
