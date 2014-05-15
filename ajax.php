@@ -102,6 +102,29 @@ function load(){
 		</div>
 	</div>';
 		break;
+		case 'laverne_cox':
+		echo '<div class="contentBox type_employment">
+		<div class="postHeader">
+			<div class="postAccent postAl fl"></div>
+			<div class="fl">
+				<div class="postHead">Al Fievre shared a link</div>
+				<div class="postSubHead">November 29</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="postContent employment"><p>TESTING</p></div>
+			<div id="like_employment_shopsocial">
+				<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				<div class="clear"></div>
+			</div>
+			<div class="comments likeLabel">
+				<div class="commentIcon commentLike fl"></div>
+				9 people like this.
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>';
 		default:
 	
 	echo

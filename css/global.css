@@ -512,7 +512,7 @@ b {
 
 .postHead {
   color: #555555;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 24px;
   font-weight: bold;
 }
@@ -754,6 +754,11 @@ b {
 
 .postJob {
   background: url('images/sprites3.png') no-repeat -0px -99px;
+}
+
+.postAl {
+  background: url('../images/4389605410_20f4ff2f3c_b.jpg') no-repeat;
+  background-size: 30px 30px;
 }
 
 .postCreative {
