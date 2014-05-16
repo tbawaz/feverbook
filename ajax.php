@@ -107,24 +107,39 @@ function load(){
 		<div class="postHeader">
 			<div class="postAccent postAl fl"></div>
 			<div class="fl">
-				<div class="postHead">Al Fievre shared a link</div>
+				<div class="postHead"><a>Al Fievre</a> shared a link</div>
 				<div class="postSubHead">November 29</div>
 			</div>
 			<div class="clear"></div>
 		</div>
-		<div class="postContent employment"><p>TESTING</p></div>
+		<div class="postContent employment">
+		<div class="linkBox">
+		<div style="background: url(images/laverne_cox.png) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
+		<p style="font-size: 13px;"><a>Laverne Cox flawlessly shuts down Katie Couric\'s invasive questions about transgender people</a></p>
+		<p class="postSubHead">www.salon.com</p>
+		<p>"The preoccupation with transition and surgery objectifies trans people," the actress explained in Couric\'s video.</p>
+		</div>
+		</div>
 			<div id="like_employment_shopsocial">
 				<div class="comments likeWidget">
 				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
-				<div class="clear"></div>
-			</div>
-			<div class="comments likeLabel">
-				<div class="commentIcon commentLike fl"></div>
-				9 people like this.
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
 				<div class="clear"></div>
 			</div>
 		</div>
+		<div class="comments">
+      <div class="commenterIcon postKathryn tooltip fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Kathryn B.</b></a> She is so awesome &lt;3</p>
+        <p><div class="postSubHead" style="float: left;">November 29 at 5:55pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+    </div>
 	</div>';
+	break;
 		default:
 	
 	echo
