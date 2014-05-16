@@ -60,6 +60,9 @@ img {
   border: 0px;
 }
 
+ol {
+  margin: 0px;
+}
 .hidden {
   display: none;
 }
@@ -84,7 +87,6 @@ b {
   color: #000000;
 }
 
-
 .rounded {
   border-radius: 3px;
 }
@@ -106,6 +108,10 @@ b {
 
 
 /* Text */
+
+.do_menu {
+  display: table;
+}
 
 .accentLight {
   color: #4f6ca6;
@@ -325,9 +331,11 @@ b {
 .highlightSlug {
   cursor: pointer;
   color: #333;
-  background-color: #f2f4f8;
+  /*background-color: #f2f4f8;*/
   float: left;
   margin-right: 5px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .highlightLabel {
@@ -387,35 +395,48 @@ b {
 
 .baseInfo {
   padding: 5px;
-  width: 305px;
+  width: 288px;
   height: 67px;
   line-height: 16px;
-  padding-left: 30px;
-  border-top: 1px solid #e5e7eb;
+  /*border-top: 1px solid #e5e7eb;
   border-right: 1px solid #e5e7eb;
   border-bottom: 1px solid #e5e7eb;
   border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;*/
 }
 
 
 
 .baseInfo:hover {
-  border-top: 1px solid #b3b3b3;
+  /*border-top: 1px solid #b3b3b3;
   border-right: 1px solid #b3b3b3;
   border-bottom: 1px solid #b3b3b3;
-  box-shadow: inset 0px 0px 0px 2px #FFFFFF;
+  box-shadow: inset 0px 0px 0px 2px #FFFFFF;*/
 }
 
 .subInfo {
-  width: 75px;
+  display: table-cell;
+  width: 80px;
   height: 30px;
-  border: 1px solid #e5e7eb;
+  /*border: 1px solid #e5e7eb;*/
+  border-right: 1px solid #e9eaed;
+
+  float: left;
+font-size: 14px;
+font-weight: bold;
+height: 65px;
+line-height: 5;
+padding: 0 10px;
+position: relative;
+white-space: nowrap;
+text-align: center;
+vertical-align: middle;
 }
 
 .subInfo:hover {
-  border: 1px solid #b3b3b3;
-  box-shadow: inset 0px 0px 0px 2px #FFFFFF;
+  /*border: 1px solid #b3b3b3;
+  box-shadow: inset 0px 0px 0px 2px #FFFFFF;*/
+
 }
 
 .content {
@@ -453,6 +474,15 @@ b {
   padding: 5px;
   margin: 5px; 
   margin-top: 20px;
+  background-color:#FFFFFF;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+
+.contentLeftBox {
+  width: 273px;
+  padding: 5px;
+  margin-bottom: 20px;
   background-color:#FFFFFF;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
