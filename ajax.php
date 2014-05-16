@@ -107,7 +107,7 @@ function load(){
 		<div class="postHeader">
 			<div class="postAccent postAl fl"></div>
 			<div class="fl">
-				<div class="postHead"><a>Al Fievre</a> shared a link</div>
+				<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
 				<div class="postSubHead">November 29</div>
 			</div>
 			<div class="clear"></div>
@@ -131,7 +131,7 @@ function load(){
 			</div>
 		</div>
 		<div class="comments">
-      <div class="commenterIcon postKathryn tooltip fl"></div>
+      <div class="commenterIcon postKathryn fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Kathryn B.</b></a> She is so awesome &lt;3</p>
         <p><div class="postSubHead" style="float: left;">November 29 at 5:55pm &#183; <a>Like</a></div></p>
@@ -140,7 +140,102 @@ function load(){
     </div>
 	</div>';
 	break;
-		default:
+			case 'electric_vehicles':
+		echo '<div class="contentBox type_employment">
+		<div class="postHeader">
+			<div class="postAccent postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
+				<div class="postSubHead">November 29</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="postContent employment">
+		<div class="linkBox">
+		<p>Tristan--put post electric vehicle post here :)</p>
+		</div>
+		</div>
+			<div id="like_employment_shopsocial">
+				<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>';
+	break;
+	case 'xkcd':
+		echo
+		'<div class="contentBox type_employment">
+			<div class="postHeader">
+				<div class="postAccent postAl fl"></div>
+				<div class="fl">
+					<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
+					<div class="postSubHead">November 29</div>
+				</div>
+			<div class="clear"></div>
+		</div>
+		<div class="postContent employment">
+			<img src="images/xkcd.png" width="490px"></img>
+		</div>
+		<div id="like_employment_shopsocial">
+			<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>';
+	break;
+
+	case 'happy_thanksgivukkah':
+		echo
+		'<div class="contentBox type_employment">
+			<div class="postHeader">
+				<div class="postAccent postAllison fl"></div>
+				<div class="fl">
+					<div class="postHead"><a>Allison Fievre</a> shared a <a>link</a></div>
+					<div class="postSubHead">November 28</div>
+				</div>
+			<div class="clear"></div>
+		</div>
+		<div class="postContent employment">
+			<img src="images/happy_thanksgivukkah.jpg" max-width="490px" style="display: block; margin-right: auto; margin-left: auto;"></img>
+		</div>
+		<div id="like_employment_shopsocial">
+			<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="comments">
+      <div class="commenterIcon postMelissa fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Melissa Fievre</b></a> We\'ll be there mom!</p>
+        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+      </div>
+      <div class="comments">
+      <div class="commenterIcon postAl fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Al Fievre</b></a> What\'s the dress code? Will Aunt Mary be there with the cousins?</p>
+        <p><div class="postSubHead" style="float: left;">November 28 at 2:56pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+    </div>';
+	break;
+
+	default:
 	
 	echo
 	'<div class="contentBox type_employment">

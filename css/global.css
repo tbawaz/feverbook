@@ -585,7 +585,7 @@ b {
 }
 
 .commenterComment {
-  width: 346px;
+  width: 446px;
 }
 
 .commenterComment p {
@@ -787,12 +787,27 @@ b {
   border-radius: 3px;
 }
 
+.postAllison {
+  background: url('../images/allison.gif') 50% 50% no-repeat;
+  width: 32px; height: 32px;
+  background-size: cover;
+  border-radius: 3px;
+}
+
 .postKathryn {
   background: url('../images/4616494234_9cb60fc899_o.png') 50% 50% no-repeat;
   width: 32px; height: 32px;
   background-size: cover;
   border-radius: 3px;
 }
+
+.postMelissa {
+  background: url('../images/melissa.jpg') 50% 50% no-repeat;
+  width: 32px; height: 32px;
+  background-size: cover;
+  border-radius: 3px;
+}
+
 
 .postCreative {
   background: url('images/sprites3.png') no-repeat -0px -198px;
