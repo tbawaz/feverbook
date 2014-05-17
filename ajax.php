@@ -140,7 +140,7 @@ function load(){
     </div>
 	</div>';
 	break;
-			case 'electric_vehicles':
+		case 'electric_vehicles':
 		echo '<div class="contentBox type_employment">
 		<div class="postHeader">
 			<div class="postAccent postAl fl"></div>
@@ -152,7 +152,12 @@ function load(){
 		</div>
 		<div class="postContent employment">
 		<div class="linkBox">
-		<p>Tristan--put post electric vehicle post here :)</p>
+		<div style="background: url(http://www.seacoastonline.com/apps/pbcsi.dll/bilde?Site=SO&Date=20100424&Category=NEWS&ArtNo=4240319&Ref=AR&maxH=230&maxW=370&border=0&Q=80) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
+		<p style="font-size: 13px;"><a>Are electric vehicles a fire hazard? | MIT
+		Technology Review</a>
+		<p class="postSubHead">www.technologyreview.com</p>
+		<p>Lithium-ion batteries have risks, but they can be managed to prevent
+		fires in EVs.</p>
 		</div>
 		</div>
 			<div id="like_employment_shopsocial">
@@ -165,6 +170,7 @@ function load(){
 				<div class="clear"></div>
 			</div>
 		</div>
+
 	</div>';
 	break;
 	case 'xkcd':
@@ -235,29 +241,38 @@ function load(){
     </div>';
 	break;
 
-	default:
+	case 'long_ride':
 	
 	echo
 	'<div class="contentBox type_employment">
-		<div class="postHeader">
-			<div class="postAccent postJob fl"></div>
+		<div class="postHeaderWithCaption">
+			<div class="postAccent postAl fl"></div>
 			<div class="fl">
-				<div class="postHead">Employment</div>
-				<div class="postSubHead">April 2010 - July 2011</div>
+				<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
+				<div class="postSubHead">November 29</div>
 			</div>
-			<div class="clear"></div>
+			<div class = "postHeader_caption">
+			the long ride home with Sister Melista... <font color="grey">with</font>
+			<a color="#3B5998"> Melissa Fievre</a>
+			</div>
+
 		</div>
-		<div class="postContent employment"><p>hi!</p></div>
+		
+		
+			<img src="images/On_MUNI.jpg" horizontal-align="center" height="50" width="50" style="no-repeat; margin:0px auto;"></img>
+		
+		
 			<div id="like_employment_shopsocial">
-				<div class="comments likeWidget">
+			<div class="comments likeWidget">
 				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
 				<div class="clear"></div>
 			</div>
-			<div class="comments likeLabel">
-				<div class="commentIcon commentLike fl"></div>
-				9 people like this.
-				<div class="clear"></div>
-			</div>
+		</div>
+			
 		</div>
 	</div>';
 	break;
