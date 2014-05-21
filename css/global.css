@@ -906,6 +906,11 @@ background: url('../photoSidebar/3556347723_e3d67d3a85_b.jpg') 50% 50% no-repeat
   width: 87px;
   height: 87px;
   background-size: cover;
+  display:table-cell;
+  vertical-align:bottom;
+  color: white;
+  font-size: 12px;
+  text-shadow: 0 0 2px #000;
 }
 
 .postCommentPic {
