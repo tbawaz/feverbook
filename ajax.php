@@ -205,7 +205,7 @@ function load(){
 			<div class="postHeader">
 				<div class="postAccent postCommentPic postAllison fl"></div>
 				<div class="fl">
-					<div class="postHead"><a>Allison Fievre</a> shared a <a>link</a></div>
+					<div class="postHead"><a>Allison Fievre</a> shared a <a>photo</a></div>
 					<div class="postSubHead">November 28</div>
 				</div>
 			<div class="clear"></div>
@@ -256,7 +256,7 @@ function load(){
 		
 		<div class="postContent employment">
 
-		<p>The long ride home with Sister Melista... <font color="grey">with</font>
+		<p>The long ride home with Sista Melista... <font color="grey">with</font>
 			<a color="#3B5998"> Melissa Fievre</a></p>
 			<img src="images/On_MUNI.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
 		</div>
