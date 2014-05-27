@@ -111,8 +111,8 @@ div[role="article"] {
 
 /* need to make row spacing 3px; */
 .individualPhotoContainer {
-	width: 103px;
-	height: 103px;
+	/*width: 103px;
+	height: 103px;*/
 	direction:ltr;
 	position:relative;
 	overflow:hidden;

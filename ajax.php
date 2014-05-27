@@ -105,7 +105,7 @@ function load(){
 		case 'laverne_cox':
 		echo '<div class="contentBox type_employment">
 		<div class="postHeader">
-			<div class="postAccent postAl fl"></div>
+			<div class="postAccent postCommentPic postAl fl"></div>
 			<div class="fl">
 				<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
 				<div class="postSubHead">November 29</div>
@@ -131,7 +131,7 @@ function load(){
 			</div>
 		</div>
 		<div class="comments">
-      <div class="commenterIcon postKathryn fl"></div>
+      <div class="commenterIcon postCommentPic postKathryn fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Kathryn B.</b></a> She is so awesome &lt;3</p>
         <p><div class="postSubHead" style="float: left;">November 29 at 5:55pm &#183; <a>Like</a></div></p>
@@ -143,7 +143,7 @@ function load(){
 		case 'electric_vehicles':
 		echo '<div class="contentBox type_employment">
 		<div class="postHeader">
-			<div class="postAccent postAl fl"></div>
+			<div class="postAccent postCommentPic postAl fl"></div>
 			<div class="fl">
 				<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
 				<div class="postSubHead">November 29</div>
@@ -177,7 +177,7 @@ function load(){
 		echo
 		'<div class="contentBox type_employment">
 			<div class="postHeader">
-				<div class="postAccent postAl fl"></div>
+				<div class="postAccent postCommentPic postAl fl"></div>
 				<div class="fl">
 					<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
 					<div class="postSubHead">November 29</div>
@@ -203,9 +203,9 @@ function load(){
 		echo
 		'<div class="contentBox type_employment">
 			<div class="postHeader">
-				<div class="postAccent postAllison fl"></div>
+				<div class="postAccent postCommentPic postAllison fl"></div>
 				<div class="fl">
-					<div class="postHead"><a>Allison Fievre</a> shared a <a>link</a></div>
+					<div class="postHead"><a>Allison Fievre</a> shared a <a>photo</a></div>
 					<div class="postSubHead">November 28</div>
 				</div>
 			<div class="clear"></div>
@@ -224,7 +224,7 @@ function load(){
 			</div>
 		</div>
 		<div class="comments">
-      <div class="commenterIcon postMelissa fl"></div>
+      <div class="commenterIcon postCommentPic postMelissa fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Melissa Fievre</b></a> We\'ll be there mom!</p>
         <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
@@ -232,7 +232,7 @@ function load(){
       <div class="clear"></div>
       </div>
       <div class="comments">
-      <div class="commenterIcon postAl fl"></div>
+      <div class="commenterIcon postCommentPic postAl fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Al Fievre</b></a> What\'s the dress code? Will Aunt Mary be there with the cousins?</p>
         <p><div class="postSubHead" style="float: left;">November 28 at 2:56pm &#183; <a>Like</a></div></p>
@@ -245,22 +245,21 @@ function load(){
 	
 	echo
 	'<div class="contentBox type_employment">
-		<div class="postHeaderWithCaption">
-			<div class="postAccent postAl fl"></div>
+		<div class="postHeader">
+			<div class="postAccent postCommentPic postAl fl"></div>
 			<div class="fl">
-				<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
-				<div class="postSubHead">November 29</div>
+				<div class="postHead"><a>Al Fievre</a></div>
+				<div class="postSubHead">November 27</div>
 			</div>
-			<div class = "postHeader_caption">
-			the long ride home with Sister Melista... <font color="grey">with</font>
-			<a color="#3B5998"> Melissa Fievre</a>
-			</div>
-
+			<div class="clear"></div>
 		</div>
 		
-		
-			<img src="images/On_MUNI.jpg" horizontal-align="center" height="50" width="50" style="no-repeat; margin:0px auto;"></img>
-		
+		<div class="postContent employment">
+
+		<p>The long ride home with Sista Melista... <font color="grey">with</font>
+			<a color="#3B5998"> Melissa Fievre</a></p>
+			<img src="images/On_MUNI.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+		</div>
 		
 			<div id="like_employment_shopsocial">
 			<div class="comments likeWidget">

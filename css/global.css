@@ -666,6 +666,7 @@ vertical-align: middle;
   margin: 0px auto;
   width: 100%;
   text-align: center;
+  height: 64px;
 }
 
 .intermission {
@@ -829,31 +830,102 @@ vertical-align: middle;
 
 .postAl {
   background: url('../images/4389605410_20f4ff2f3c_b.jpg') 50% 50% no-repeat;
-  width: 32px; height: 32px;
-  background-size: cover;
-  border-radius: 3px;
 }
 
 .postAllison {
   background: url('../images/allison.gif') 50% 50% no-repeat;
-  width: 32px; height: 32px;
-  background-size: cover;
-  border-radius: 3px;
 }
 
 .postKathryn {
   background: url('../images/4616494234_9cb60fc899_o.png') 50% 50% no-repeat;
+}
+
+.postMelissa {
+  background: url('../images/melissa.jpg') 50% 50% no-repeat;
+}
+
+.postMuni {
+  background: url('../photoSidebar/ON_MUNI.jpg') 50% 50% no-repeat;
+}
+
+.postDance1 {
+  background: url('../photoSidebar/681532302_daf0c90086_b.jpg') 50% 50% no-repeat;
+}
+
+.postDance2 {
+  background: url('../photoSidebar/681552972_7f51d93106_b.jpg') 50% 50% no-repeat;
+}
+
+.postDance3 {
+  background: url('../photoSidebar/681582026_02b9fce7f0_b.jpg') 50% 50% no-repeat;
+}
+
+.postDance4 {
+  background: url('../photoSidebar/681583562_079d556b6f_b 2.jpg') 50% 50% no-repeat;
+}
+
+.postDance5 {
+background: url('../photoSidebar/681534490_b3a82a91df_b.jpg') 50% 50% no-repeat;
+}
+
+.postHeart {
+background: url('../photoSidebar/2265098258_6eb3832ca3_b.jpg') 50% 50% no-repeat;
+}
+
+.postBlonde {
+background: url('../photoSidebar/3556347723_e3d67d3a85_b.jpg') 50% 50% no-repeat;
+}
+
+.postFirefly {
+  background: url('../photoSidebar/8245696236_0baee5b69b_b.jpg') 50% 50% no-repeat;
+  }
+
+.postGeof {
+  background: url('../friendSidebar/225240_10150173974672854_1389453_n 2.jpg') 50% 50% no-repeat;
+  }
+
+  .postCory {
+  background: url('../friendSidebar/1455842_10153508990710596_372050018_n.jpg') 50% 50% no-repeat;
+  }
+
+  .postSam {
+    background: url('../friendSidebar/3252488868_7daabb1ea6_b 2.jpg') 50% 50% no-repeat;
+  }
+
+  .postAlbert {
+    background: url('../friendSidebar/3173589014_900e0db72b_o.jpg') 50% 50% no-repeat;
+  }
+
+  .postRyan {
+    background: url('../friendSidebar/A_Nice_Long_Vacation.jpg') 50% 50% no-repeat;
+  }
+
+  .postJohn {
+    background: url('../friendSidebar/seberger.jpg') 50% 50% no-repeat;
+  }
+
+  .postCaitie {
+    background: url('../friendSidebar/1381930_10151954665440412_1403412110_n.jpg') 50% 50% no-repeat;
+  }
+
+
+.postSideBar {
+  width: 87px;
+  height: 87px;
+  background-size: cover;
+  display:table-cell;
+  vertical-align:bottom;
+  color: white;
+  font-size: 12px;
+  text-shadow: 0 0 2px #000;
+}
+
+.postCommentPic {
   width: 32px; height: 32px;
   background-size: cover;
   border-radius: 3px;
 }
 
-.postMelissa {
-  background: url('../images/melissa.jpg') 50% 50% no-repeat;
-  width: 32px; height: 32px;
-  background-size: cover;
-  border-radius: 3px;
-}
 
 
 .postCreative {
