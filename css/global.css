@@ -9,6 +9,7 @@ body {
   background-color: #e6ebf2;
 }
 
+
 .alpha60 {
   background: rgb(0, 0, 0) transparent;
   background: rgba(0, 0, 0, 0.6);
@@ -77,6 +78,11 @@ ol {
 
 .clear {
   clear: both;
+}
+
+.center{
+  margin-right: auto;
+  margin-left: auto;
 }
 
 img.inline {

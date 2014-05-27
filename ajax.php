@@ -276,6 +276,55 @@ function load(){
 		</div>
 	</div>';
 	break;
+
+	case 'dance':
+		echo
+		'<div class="contentBox type_employment" style="text-align:center">
+			<div class="postHeader"style="text-align:left">
+				<div class="postAccent postAllison fl"></div>
+				<div class="fl">
+					<div class="postHead"><a>Allison Fievre</a> shared a <a>link</a></div>
+					<div class="postSubHead">November 28</div>
+				</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+		<div class="postContent center" style="display:inline-block; text-align:center;" >
+
+				<img src="photoSidebar/681583562_079d556b6f_b 2.jpg" width="150px" style="display: inline;"></img>
+				<img src="photoSidebar/681532302_daf0c90086_b.jpg" width="150px" style="display: inline;"></img>				
+				<img src="photoSidebar/681534490_b3a82a91df_b.jpg" width="150px" style="display: inline;"></img>
+				
+			
+		</div>
+
+		<div id="like_employment_shopsocial">
+			<div class="comments likeWidget" style="text-align:left">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="comments"style="text-align:left">
+      <div class="commenterIcon postMelissa fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Melissa Fievre</b></a> We\'ll be there mom!</p>
+        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+      </div>
+      <div class="comments"style="text-align:left">
+      <div class="commenterIcon postAl fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Al Fievre</b></a> What\'s the dress code? Will Aunt Mary be there with the cousins?</p>
+        <p><div class="postSubHead" style="float: left;">November 28 at 2:56pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+    </div>';
+	break;
 	}
 }
 
