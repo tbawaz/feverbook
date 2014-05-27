@@ -102,7 +102,8 @@ function load(){
 		</div>
 	</div>';
 		break;
-		case 'laverne_cox':
+
+	case 'laverne_cox':
 		echo '<div class="contentBox type_employment">
 		<div class="postHeader">
 			<div class="postAccent postCommentPic postAl fl"></div>
@@ -140,7 +141,8 @@ function load(){
     </div>
 	</div>';
 	break;
-		case 'electric_vehicles':
+		
+	case 'electric_vehicles':
 		echo '<div class="contentBox type_employment">
 		<div class="postHeader">
 			<div class="postAccent postCommentPic postAl fl"></div>
@@ -279,11 +281,12 @@ function load(){
 	case 'dance':
 		echo
 		'<div class="contentBox type_employment" style="text-align:center">
-			<div class="postHeader"style="text-align:left">
+			<div class="postHeaderWithCaption"style="text-align:left">
 				<div class="postAccent postAllison fl"></div>
 				<div class="fl">
 					<div class="postHead"><a>Allison Fievre</a> shared a <a>link</a></div>
 					<div class="postSubHead">November 28</div>
+					<div class="postContent">Dance, dance, dance the night away</div>
 				</div>
 			<div class="clear"></div>
 		</div>
@@ -308,22 +311,302 @@ function load(){
 			</div>
 		</div>
 		<div class="comments"style="text-align:left">
-      <div class="commenterIcon postMelissa fl"></div>
+      <div class="commenterIcon postRyan fl"></div>
       <div class="commenterComment fl">
-        <p><b><a>Melissa Fievre</b></a> We\'ll be there mom!</p>
+        <p><b><a>Ryan Clayton</b></a>  Sorry I couldn\'t come out to play ... @ work super late. Call me if you need anything!</p>
         <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
+
+      </div>
+      <div class="comments"style="text-align:left">
+      <div class="commenterIcon postRyan fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Ryan Clayton</b></a> Also, is that a Van Halen reference?</p>
+        <p><div class="postSubHead" style="float: left;">November 28 at 2:56pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+
+      </div>
+      <div class="comments"style="text-align:left">
+      <div class="commenterIcon postSam fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Sam Waters</b></a> Missed you, dahling.</p>
+        <p><div class="postSubHead" style="float: left;">November 28 at 2:56pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+    
+     </div>
+      <div class="comments"style="text-align:left">
+      <div class="commenterIcon postMelissa fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Melissa Fievre</b></a> Too much fun, Ryan. Al and I are feeling awful on the train ride home, but I think she\'s in a better mood. (Hi, Al!)</p>
+        <p><div class="postSubHead" style="float: left;">November 28 at 2:56pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+      
       </div>
       <div class="comments"style="text-align:left">
       <div class="commenterIcon postAl fl"></div>
       <div class="commenterComment fl">
-        <p><b><a>Al Fievre</b></a> What\'s the dress code? Will Aunt Mary be there with the cousins?</p>
+        <p><b><a>Al Fievre</b></a> I really needed that. Thankx Hi, Melissa! I\'m looking at you while I write this. Crreped out yet?</p>
         <p><div class="postSubHead" style="float: left;">November 28 at 2:56pm &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
-    </div>';
+
+      </div>
+      <div class="comments"style="text-align:left">
+      <div class="commenterIcon postCaitie fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Kathryn B.</b></a> Where was this? Looks like you had fun!</p>
+        <p><div class="postSubHead" style="float: left;">November 28 at 2:56pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+
+
+      </div>';
 	break;
+
+	case 'blonde':
+	
+		echo
+		'<div class="contentBox type_employment">
+			<div class="postHeaderWithCaption">
+				<div class="postAccent postCommentPic postSam fl"></div>
+				<div class="fl">
+					<div class="postHead"><a>Sam Waters</a></div>
+					<div class="postSubHead">November 27</div>
+					<div>Look Al! A blonde! Are you smiling yet?</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<div class="postContent employment">
+
+			
+			<img src="photoSidebar/3556347723_e3d67d3a85_b.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+			</div>
+			
+				<div id="like_employment_shopsocial">
+				<div class="comments likeWidget">
+					<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+					&#183;
+					<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+					&#183;
+					<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postAl fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Al Fievre</b></a> I wish. at Down in the Dumps</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		    <div class="comments"style="text-align:left">
+		      <div class="commenterIcon postSam fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Sam Waters</b></a> :(</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+			</div>
+		</div>';
+	break;
+
+	case 'heart':
+	
+	echo
+	'<div class="contentBox type_employment">
+		<div class="postHeader">
+			<div class="postAccent postCommentPic postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre</a> shared a photo</div>
+				<div class="postSubHead">November 27</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="postContent employment">
+
+		
+		
+		<img src="photoSidebar/2265098258_6eb3832ca3_b.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+		</div>
+		
+			<div id="like_employment_shopsocial">
+			<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postRyan fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Ryan Clayton</b></a> Ugghhh... Vaguebook much? Call me with the deets.</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		</div>
+	</div>';
+	break;
+
+	case 'RuPaul':
+		echo '<div class="contentBox type_employment">
+		<div class="postHeader">
+			<div class="postAccent postCommentPic postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre</a> liked <a>RuPaul\'s Post</a></div>
+				<div class="postSubHead">November 29</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="postContent employment">
+		<div class="linkBox">
+		<div style="background: url(images/laverne_cox.png) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
+		<p style="font-size: 13px;"><a>RuPaul</a></p>
+		<p class="postSubHead">Entertainer 357,921 likes</p>
+		<p>Weird how the world has made us uncomfortable with love for fear of falling deep and drowning a sea of love</p>
+		</div>
+		</div>
+			<div id="like_employment_shopsocial">
+				<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+	</div>';
+	break;
+
+	case 'Allison_Comment':
+
+		echo '<div class="contentBox type_employment">
+		<div class="postHeaderWithBigCaption">
+			<div class="postAccent postCommentPic postAllison fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Allison Fievre</a> posted a comment</a></div>
+				<div class="postSubHead">November 29</div>
+				<div>We need to talk, sweetie. You don\'t answer your phone or your messages, so that\'s why I\'m posting this here. Your father was just upset. Love you!</div>
+			</div>
+			<div class="clear"></div>
+		
+		</div>
+		
+		<div id="like_employment_shopsocial">
+
+			<div class="comments likeWidget">
+
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+
+				<div class="clear"></div>
+
+			</div>
+		
+		
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postSam fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Sam Waters</b></a> Is everything OK?</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		</div>
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postAllison fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Allison Fievre</b></a> Please tell Al his Dad and I want to talk.</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postSam fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Sam Waters</b></a> "Her" Allison. Her dad.</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postAl fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Al Fievre</b></a> Put in John lennon video here</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		</div>
+
+		</div>
+	</div>';
+	break;
+
+	case 'firefly':
+	
+	echo
+	'<div class="contentBox type_employment">
+		<div class="postHeaderWithCaption">
+			<div class="postAccent postCommentPic postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre</a> shared a photo</div>
+				<div class="postSubHead">November 27</div>
+				<font>Dance, of my firefly, dance</font>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="postContent employment">
+
+		
+		
+		<img src="photoSidebar/8245696236_0baee5b69b_b.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+		</div>
+		
+			<div id="like_employment_shopsocial">
+			<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postSam fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Sam Waters</b></a> Ugghhh... Vaguebook much? Call me with the deets.</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		</div>
+	</div>';
+	break;
+
 	}
 }
 
