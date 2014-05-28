@@ -284,19 +284,17 @@ function load(){
 			<div class="postHeader"style="text-align:left">
 				<div class="postAccent postCommentPic postSam fl"></div>
 				<div class="fl">
-					<div class="postHead"><a>Sam Waters</a> tagged <a>Al Fievre</a> and <a>2 others</a> in <a>3 photos</a></div>
+					<div class="postHead"><a>Sam Waters</a> tagged <a>Al Fievre</a> and <a>2 others</a> in <a>4 photos</a></div>
 					<div class="postSubHead">November 26</div>
 				</div>
 			<div class="clear"></div>
 		</div>
 
-		<div class="postContent employment" style="text-align:left;"><p>Dance, dance, dance the night away</p></div>
+		<div class="postContent employment" style="text-align:left;"><p>Dance, dance, dance the night away</p>
 
-		<div class="postContent center" style="display:inline-block; text-align:center;" >
-
-				<img src="photoSidebar/681583562_079d556b6f_b 2.jpg" width="150px" style="display: inline;"></img>
-				<img src="photoSidebar/681532302_daf0c90086_b.jpg" width="150px" style="display: inline;"></img>				
-				<img src="photoSidebar/681534490_b3a82a91df_b.jpg" width="150px" style="display: inline;"></img>
+				<img src="photoSidebar/681583562_079d556b6f_b 2.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>
+				<img src="photoSidebar/681532302_daf0c90086_b.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>				
+				<img src="photoSidebar/681534490_b3a82a91df_b.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>
 				
 			
 		</div>
@@ -375,7 +373,7 @@ function load(){
 			<div class="postHeader">
 				<div class="postAccent postCommentPic postSam fl"></div>
 				<div class="fl">
-					<div class="postHead"><a>Sam Waters</a></div>
+					<div class="postHead"><a>Sam Waters</a> shared a <a>photo</a></div>
 					<div class="postSubHead">November 25</div>
 				</div>
 				<div class="clear"></div>
@@ -426,7 +424,7 @@ function load(){
 		<div class="postHeader">
 			<div class="postAccent postCommentPic postAl fl"></div>
 			<div class="fl">
-				<div class="postHead"><a>Al Fievre</a> shared a photo</div>
+				<div class="postHead"><a>Al Fievre</a> shared a <a>photo</a></div>
 				<div class="postSubHead">November 25</div>
 			</div>
 			<div class="clear"></div>
@@ -499,7 +497,7 @@ function load(){
 		<div class="postHeader">
 			<div class="postAccent postCommentPic postAllison fl"></div>
 			<div class="fl">
-				<div class="postHead"><a>Allison Fievre</a> posted a comment</a></div>
+				<div class="postHead"><a>Allison Fievre</a></div>
 				<div class="postSubHead">November 24</div>
 			</div>
 			<div class="clear"></div>
@@ -573,19 +571,18 @@ function load(){
 	
 	echo
 	'<div class="contentBox type_employment">
-		<div class="postHeaderWithCaption">
+		<div class="postHeader">
 			<div class="postAccent postCommentPic postAl fl"></div>
 			<div class="fl">
-				<div class="postHead"><a>Al Fievre</a> shared a photo</div>
+				<div class="postHead"><a>Al Fievre</a></div>
 				<div class="postSubHead">November 23</div>
-				<font>Dance, of my firefly, dance</font>
 			</div>
 			<div class="clear"></div>
 		</div>
 		
 		<div class="postContent employment">
 
-		
+		<p>Dance, of my firefly, dance</p>
 		
 		<img src="photoSidebar/8245696236_0baee5b69b_b.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
 		</div>
@@ -647,7 +644,7 @@ case 'chocolate':
 		<div class="postHeader">
 			<div class="postAccent postCommentPic postAl fl"></div>
 			<div class="fl">
-				<div class="postHead"><a>Al Fievre</a> shared a photo</div>
+				<div class="postHead"><a>Al Fievre</a> shared a <a>photo</a></div>
 				<div class="postSubHead">November 23</div>
 			</div>
 			<div class="clear"></div>
@@ -657,7 +654,7 @@ case 'chocolate':
 
 		<p>drowning in chocolate</p>
 		
-		<img src="photoSidebar/chocolate.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+		<img src="photoSidebar/chocolate.jpg" horizontal-align="center" style="no-repeat; margin:0px auto;"></img>
 		</div>
 		
 			<div id="like_employment_shopsocial">
@@ -726,7 +723,7 @@ case 'chocolate':
 		<div class="postHeader">
 			<div class="postAccent postCommentPic postMelissa fl"></div>
 			<div class="fl">
-				<div class="postHead"><a>Melissa Fievre</a> shared a photo</div>
+				<div class="postHead"><a>Melissa Fievre</a> shared a <a>photo</a></div>
 				<div class="postSubHead">November 20</div>
 			</div>
 			<div class="clear"></div>
@@ -825,7 +822,7 @@ case 'chocolate':
 		<div class="postHeader">
 			<div class="postAccent postCommentPic postAl fl"></div>
 			<div class="fl">
-				<div class="postHead"><a>Al Fievre</a> posted a comment</div>
+				<div class="postHead"><a>Al Fievre</a></div>
 				<div class="postSubHead">November 19</div>
 			</div>
 			<div class="clear"></div>
@@ -896,6 +893,132 @@ case 'chocolate':
 			</div>
 		</div>
 		
+	</div>';
+	break;
+
+	case 'plath':
+		echo '<div class="contentBox type_employment">
+		<div class="postHeader">
+			<div class="postAccent postCommentPic postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
+				<div class="postSubHead">November 17</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="postContent employment">
+
+		<div class="linkBox">
+		<div style="background: url(images/sylvia-plath.jpg) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
+		<p style="font-size: 13px;"><a>Daddy by Sylvia Plath: The Poetry Foundation</a></p>
+		<p class="postSubHead">www.poetryfoundation.com</p>
+		<p>You do not do, you do not do / Any more, black shoe / In which I have lived like a foot / For thirty years, black and white,</p>
+		</div>
+		</div>
+			<div id="like_employment_shopsocial">
+				<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<div class="comments"style="text-align:left">
+      <div class="commenterIcon postCommentPic postRyan fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Ryan Clayton</b></a></p>
+		        <img src="images/hamlet.jpg" horizontal-align="center" width="400px" style="no-repeat; margin:0px auto;"></img>
+        <p><div class="postSubHead" style="float: left;">November 17 at 8:47pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+      </div>
+      <div class="comments"style="text-align:left">
+      <div class="commenterIcon postCommentPic postKathryn fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Kathryn B.</b></a> Good lord, I forgot how dark Plath\'s poems were. I suppose that shouldn\'t be something one would forget easily, but this is really soul crushingly dark. I hope you\'re doing okay :(</p>
+        <p><div class="postSubHead" style="float: left;">November 17 at 8:47pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
+		      </div>
+		
+	</div>';
+	break;
+
+	case 'wolf':
+		echo
+		'<div class="contentBox type_employment">
+			<div class="postHeader">
+				<div class="postAccent postCommentPic postMelissa fl"></div>
+				<div class="fl">
+					<div class="postHead"><a>Melissa Fievre</a> shared a <a>photo</a></div>
+					<div class="postSubHead">November 13</div>
+				</div>
+			<div class="clear"></div>
+		</div>
+		<div class="postContent employment">
+			<p>So Proud of you!</p>
+			<img src="images/wolf.jpg" width="490px"></img>
+		</div>
+		<div id="like_employment_shopsocial">
+			<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>';
+	break;
+
+	case 'new_profile':
+
+		echo '<div class="contentBox type_employment">
+		<div class="postHeader">
+			<div class="postAccent postCommentPic postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre</a></div>
+				<div class="postSubHead">November 12</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="postContent employment">
+
+		<p>Finally free of my old profile! Turning over a new leaf.</p>
+		<p>(Do any of my new/old friends know how to access the archive file I downloaded when I deactivated my old account?)</p>
+		</div>
+
+			<div class="comments likeWidget">
+
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+
+				<div class="clear"></div>
+
+			</div>
+		
+		
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postCommentPic postRyan fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Ryan Clayton</b></a> Facebook archive downloads arrive as a .zip file that you should be able to unpack and open with
+		        whichever browser you want. It comes with HTML files, but also the .mp4 files for audio and video, and some JSON files for data
+		        formats. You might want to check out <a href="http://www.givememydata.com">givememydata.com</a> for some cool things you can do
+		        to visualize your own information once you\'ve downloaded it!</p>
+		        <p><div class="postSubHead" style="float: left;">November 12 at 6:04pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		</div>
+
+		</div>
 	</div>';
 	break;
 
