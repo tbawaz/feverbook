@@ -187,7 +187,7 @@ function load(){
 			<div class="clear"></div>
 		</div>
 		<div class="postContent employment">
-			<img src="images/xkcd.png" width="490px"></img>
+			<img src="images/xkcd.png" width="490px" style="display: block; margin-right: auto; margin-left: auto;"></img>
 		</div>
 		<div id="like_employment_shopsocial">
 			<div class="comments likeWidget">
@@ -260,7 +260,7 @@ function load(){
 
 		<p>The long ride home with Sista Melista... <font color="grey">with</font>
 			<a color="#3B5998"> Melissa Fievre</a></p>
-			<img src="images/On_MUNI.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+			<img src="images/On_MUNI.jpg" horizontal-align="center" width="490px" style="no-repeat; display: block; margin:0px auto;"></img>
 		</div>
 		
 			<div id="like_employment_shopsocial">
@@ -292,9 +292,18 @@ function load(){
 
 		<div class="postContent employment" style="text-align:left;"><p>Dance, dance, dance the night away</p>
 
-				<img src="photoSidebar/681583562_079d556b6f_b 2.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>
+				<table style="border-spacing: 0px; margin: 0px auto;">
+				<tbody >
+				<tr>
+				<td><div class="postDance1" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
+				<td><div class="postDance2" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
+				<td><div class="postDance3" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
+				</tr>
+				</tbody>
+				</table>
+				<!--<img src="photoSidebar/681583562_079d556b6f_b 2.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>
 				<img src="photoSidebar/681532302_daf0c90086_b.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>				
-				<img src="photoSidebar/681534490_b3a82a91df_b.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>
+				<img src="photoSidebar/681534490_b3a82a91df_b.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>-->
 				
 			
 		</div>
@@ -384,7 +393,7 @@ function load(){
 			<p>Look Al! A blonde! Are you smiling yet?</p>
 
 			
-			<img src="photoSidebar/3556347723_e3d67d3a85_b.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+			<img src="photoSidebar/3556347723_e3d67d3a85_b.jpg" horizontal-align="center" width="490px" style="no-repeat; display: block; margin:0px auto;"></img>
 			</div>
 			
 				<div id="like_employment_shopsocial">
@@ -434,7 +443,7 @@ function load(){
 
 		
 		
-		<img src="photoSidebar/2265098258_6eb3832ca3_b.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+		<img src="photoSidebar/2265098258_6eb3832ca3_b.jpg" horizontal-align="center" width="490px" style="no-repeat; display: block; margin:0px auto;"></img>
 		</div>
 		
 			<div id="like_employment_shopsocial">
@@ -584,7 +593,7 @@ function load(){
 
 		<p>Dance, of my firefly, dance</p>
 		
-		<img src="photoSidebar/8245696236_0baee5b69b_b.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+		<img src="photoSidebar/8245696236_0baee5b69b_b.jpg" horizontal-align="center" width="490px" style="no-repeat; display: block; margin:0px auto;"></img>
 		</div>
 		
 			<div id="like_employment_shopsocial">
@@ -601,7 +610,7 @@ function load(){
 		      <div class="commenterIcon postCommentPic postSam fl"></div>
 		      <div class="commenterComment fl">
 		        <p><b><a>Sam Waters</b></a> <a href ="http://www.flickr.com/photos/stordito/3922587392/sizes/l/">http://www.flickr.com/photos/stordito/3922587392/sizes/l/</a></p>
-		        <img src="images/dad_flickr.jpg" horizontal-align="center" width="400px" style="no-repeat; margin:0px auto;"></img>
+		        <img src="images/dad_flickr.jpg" horizontal-align="center" width="400px" style="no-repeat; display: block; margin:0px auto;"></img>
 		        <p><div class="postSubHead" style="float: left;">November 23 at 7:31pm &#183; <a>Like</a></div></p>
 		      </div>
 		      <div class="clear"></div>
@@ -654,7 +663,7 @@ case 'chocolate':
 
 		<p>drowning in chocolate</p>
 		
-		<img src="photoSidebar/chocolate.jpg" horizontal-align="center" style="no-repeat; margin:0px auto;"></img>
+		<img src="photoSidebar/chocolate.jpg" horizontal-align="center" style="no-repeat; display: block; margin:0px auto;"></img>
 		</div>
 		
 			<div id="like_employment_shopsocial">
@@ -733,7 +742,7 @@ case 'chocolate':
 
 		<p>Just found this on my phone. Such a bad day last summer!</p>
 		
-		<img src="photoSidebar/u785.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+		<img src="photoSidebar/u785.jpg" horizontal-align="center" width="490px" style="no-repeat; display: block; margin:0px auto;"></img>
 		</div>
 		
 			<div id="like_employment_shopsocial">
@@ -930,7 +939,7 @@ case 'chocolate':
       <div class="commenterIcon postCommentPic postRyan fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Ryan Clayton</b></a></p>
-		        <img src="images/hamlet.jpg" horizontal-align="center" width="400px" style="no-repeat; margin:0px auto;"></img>
+		        <img src="images/hamlet.jpg" width="400px" style="no-repeat; display: block; margin:0px auto;"></img>
         <p><div class="postSubHead" style="float: left;">November 17 at 8:47pm &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
@@ -960,7 +969,7 @@ case 'chocolate':
 		</div>
 		<div class="postContent employment">
 			<p>So Proud of you!</p>
-			<img src="images/wolf.jpg" width="490px"></img>
+			<img src="images/wolf.jpg" width="490px" style="display: block; margin:0px auto;"></img>
 		</div>
 		<div id="like_employment_shopsocial">
 			<div class="comments likeWidget">
