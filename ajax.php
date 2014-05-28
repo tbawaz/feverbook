@@ -741,7 +741,7 @@ case 'chocolate':
 		<div class="comments"style="text-align:left">
 		      <div class="commenterIcon postRyan fl"></div>
 		      <div class="commenterComment fl">
-		      <p><b><a>Rayn Clayton</b></a> What\'s the story here?</p>
+		      <p><b><a>Ryan Clayton</b></a> What\'s the story here?</p>
 		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
 		      </div>
 		      <div class="clear"></div>
@@ -805,6 +805,83 @@ case 'chocolate':
 		      </div>
 
 
+	</div>';
+	break;
+
+	case 'apartment':
+
+		echo '<div class="contentBox type_employment">
+		<div class="postHeaderWithBigCaption">
+			<div class="postAccent postCommentPic postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre</a> posted a comment</a></div>
+				<div class="postSubHead">November 29</div>
+				<p>My apartment is such a mess. Matches my depression.</p>
+				<p>At least they\'re both expensive.</p>
+			</div>
+			<div class="clear"></div>
+		
+		</div>
+		
+		<div id="like_employment_shopsocial">
+
+			<div class="comments likeWidget">
+
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+
+				<div class="clear"></div>
+
+			</div>
+		
+		
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postKathryn fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Kathryn B.</b></a>  *hug*</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		</div>
+
+		</div>
+	</div>';
+	break;
+
+	case 'housing':
+		echo '<div class="contentBox type_employment">
+		<div class="postHeaderWithCaption">
+			<div class="postAccent postCommentPic postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre</a> shared a <a>link</a></div>
+				<div class="postSubHead">November 29</div>
+				<p>Wonder what this will bring...</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="postContent employment">
+		<div class="linkBox">
+		<div style="background: url(photoSidebar/u902.png) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
+		<p style="font-size: 13px;"><a>Bay Area housing snaps back as most recovered U.S. market - San Francisco Business Times</a></p>
+		<p class="postSubHead">www.bizjournals.com</p>
+		<p>We all know the housing market is hot in the Bay Area, but you can now rest...</p>
+		</div>
+		</div>
+			<div id="like_employment_shopsocial">
+				<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+		
 	</div>';
 	break;
 
