@@ -741,7 +741,7 @@ case 'chocolate':
 		<div class="comments"style="text-align:left">
 		      <div class="commenterIcon postRyan fl"></div>
 		      <div class="commenterComment fl">
-		        <p><b><a>Ryan Clayton</b></a> <a href ="http://www.flickr.com/photos/stordito/3922587392/sizes/l/">http://www.flickr.com/photos/stordito/3922587392/sizes/l/</a></p>
+		      <p><b><a>Rayn Clayton</b></a> What\'s the story here?</p>
 		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
 		      </div>
 		      <div class="clear"></div>
@@ -751,7 +751,7 @@ case 'chocolate':
 		<div class="comments"style="text-align:left">
 		      <div class="commenterIcon postRyan fl"></div>
 		      <div class="commenterComment fl">
-		        <p><b><a>Ryan Clayton</b></a> <a href = "https://www.youtube.com/watch?v=1lWJXDG2i0A">https://www.youtube.com/watch?v=1|WJXDG@i0A</a> </p>
+		        <p><b><a>Al Fievre</b></a> Gawd...so much. The picture doesn\'t cover half of it... or the bs with my driver\'s license photo... or the pervvvvy cab driver...</p>
 		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
 		      </div>
 		      <div class="clear"></div>
@@ -759,14 +759,50 @@ case 'chocolate':
 
 
 		<div class="comments"style="text-align:left">
-		      <div class="commenterIcon postAl fl"></div>
+		      <div class="commenterIcon postMelissa fl"></div>
 		      <div class="commenterComment fl">
-		        <p><b><a>Al Fievre</b></a> I used to love that when I was small, Sam!</p>
+		        <p><b><a>Melissa Fievre</b></a> OMG... yes!!</p>
 		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
 		      </div>
 		      <div class="clear"></div>
 		      </div>
 		
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postAl fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Al Fievre</b></a> I want to get a new DL with an updated photo. Put that on the to-do list</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postMelissa fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Melissa Fievre</b></a> Tell me when you\'re going and we\'ll make an afternoon of it</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postAllison fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Allison Fievre</b></a> We didn\'t know you had a run-in with the police!! Call us!</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postAl fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Al Fievre</b></a> @Allison Ummmmmmm WE\'ll talk about it next time I\'m home.</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
 
 
 	</div>';
