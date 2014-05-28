@@ -116,7 +116,7 @@ function load(){
 		<div class="postContent employment">
 		<div class="linkBox">
 		<div style="background: url(images/laverne_cox.png) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
-		<p style="font-size: 13px;"><a>Laverne Cox flawlessly shuts down Katie Couric\'s invasive questions about transgender people</a></p>
+		<p style="font-size: 13px;"><a href="http://www.salon.com/2014/01/07/laverne_cox_artfully_shuts_down_katie_courics_invasive_questions_about_transgender_people/">Laverne Cox flawlessly shuts down Katie Couric\'s invasive questions about transgender people</a></p>
 		<p class="postSubHead">www.salon.com</p>
 		<p>"The preoccupation with transition and surgery objectifies trans people," the actress explained in Couric\'s video.</p>
 		</div>
@@ -154,8 +154,8 @@ function load(){
 		</div>
 		<div class="postContent employment">
 		<div class="linkBox">
-		<div style="background: url(http://www.seacoastonline.com/apps/pbcsi.dll/bilde?Site=SO&Date=20100424&Category=NEWS&ArtNo=4240319&Ref=AR&maxH=230&maxW=370&border=0&Q=80) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
-		<p style="font-size: 13px;"><a>Are electric vehicles a fire hazard? | MIT
+		<div style="background: url(images/car.jpg) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
+		<p style="font-size: 13px;"><a href="http://www.technologyreview.com/news/521976/are-electric-vehicles-a-fire-hazard/">Are electric vehicles a fire hazard? | MIT
 		Technology Review</a>
 		<p class="postSubHead">www.technologyreview.com</p>
 		<p>Lithium-ion batteries have risks, but they can be managed to prevent
@@ -187,7 +187,7 @@ function load(){
 			<div class="clear"></div>
 		</div>
 		<div class="postContent employment">
-			<img src="images/xkcd.png" width="490px" style="display: block; margin-right: auto; margin-left: auto;"></img>
+			<a href="http://xkcd.com/1314/"><img src="images/xkcd.png" width="490px" style="display: block; margin-right: auto; margin-left: auto;"></img></a>
 		</div>
 		<div id="like_employment_shopsocial">
 			<div class="comments likeWidget">
@@ -301,10 +301,6 @@ function load(){
 				</tr>
 				</tbody>
 				</table>
-				<!--<img src="photoSidebar/681583562_079d556b6f_b 2.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>
-				<img src="photoSidebar/681532302_daf0c90086_b.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>				
-				<img src="photoSidebar/681534490_b3a82a91df_b.jpg" width="163px" style="padding: 0px 1px; display: inline;"></img>-->
-				
 			
 		</div>
 
@@ -481,7 +477,7 @@ function load(){
 		<div class="postContent employment">
 		<div class="linkBox">
 		<div style="background: url(images/RuPaul.png) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
-		<p style="font-size: 13px;"><a>RuPaul</a></p>
+		<p style="font-size: 13px;"><a href="https://www.facebook.com/RuPaul">RuPaul</a></p>
 		<p class="postSubHead">Entertainer 357,921 likes</p>
 		<p>Weird how the world has made us uncomfortable with love for fear of falling deep and drowning a sea of love</p>
 		</div>
@@ -705,7 +701,7 @@ case 'chocolate':
 
 <div class="linkBox">
 		<div style="background: url(images/Thanksgivukkah2.png) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
-		<p style="font-size: 13px;"><a>Eight Ways to Celebrate Thanksgivukkah!</a></p>
+		<p style="font-size: 13px;"><a href="http://blog.sfgate.com/stew/2013/11/22/eight-ways-to-celebrate-thanksgivukkah/">Eight Ways to Celebrate Thanksgivukkah!</a></p>
 		<p class="postSubHead">www.blog.sfgate.com</p>
 		<p>Talk about the holiday mash-up of a lifetime. The rare convergence of Thanksgiving and Hannukkah, aka Thanksgivukkah, is upon us. The two holidays last intersected 125 years ago and it\'ll be...</p>
 		</div>
@@ -886,7 +882,7 @@ case 'chocolate':
 
 		<div class="linkBox">
 		<div style="background: url(photoSidebar/u902.png) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
-		<p style="font-size: 13px;"><a>Bay Area housing snaps back as most recovered U.S. market - San Francisco Business Times</a></p>
+		<p style="font-size: 13px;"><a href="http://www.bizjournals.com/sanfrancisco/blog/real-estate/2013/11/bay-area-most-recovered-home-prices.html?page=all">Bay Area housing snaps back as most recovered U.S. market - San Francisco Business Times</a></p>
 		<p class="postSubHead">www.bizjournals.com</p>
 		<p>We all know the housing market is hot in the Bay Area, but you can now rest...</p>
 		</div>
@@ -919,7 +915,7 @@ case 'chocolate':
 
 		<div class="linkBox">
 		<div style="background: url(images/sylvia-plath.jpg) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
-		<p style="font-size: 13px;"><a>Daddy by Sylvia Plath: The Poetry Foundation</a></p>
+		<p style="font-size: 13px;"><a href="http://www.poetryfoundation.org/poem/178960">Daddy by Sylvia Plath: The Poetry Foundation</a></p>
 		<p class="postSubHead">www.poetryfoundation.com</p>
 		<p>You do not do, you do not do / Any more, black shoe / In which I have lived like a foot / For thirty years, black and white,</p>
 		</div>
