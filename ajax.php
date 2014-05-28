@@ -295,9 +295,9 @@ function load(){
 				<table style="border-spacing: 0px; margin: 0px auto;">
 				<tbody >
 				<tr>
-				<td><div class="postDance1" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
 				<td><div class="postDance2" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
-				<td><div class="postDance3" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
+				<td><div class="postDance1" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
+				<td><div class="postDance5" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
 				</tr>
 				</tbody>
 				</table>
