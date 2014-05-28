@@ -598,12 +598,177 @@ function load(){
 		<div class="comments"style="text-align:left">
 		      <div class="commenterIcon postSam fl"></div>
 		      <div class="commenterComment fl">
-		        <p><b><a>Sam Waters</b></a> Ugghhh... Vaguebook much? Call me with the deets.</p>
+		        <p><b><a>Sam Waters</b></a> <a href ="http://www.flickr.com/photos/stordito/3922587392/sizes/l/">http://www.flickr.com/photos/stordito/3922587392/sizes/l/</a></p>
 		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
 		      </div>
 		      <div class="clear"></div>
 		      </div>
+		
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postRyan fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Ryan Clayton</b></a> <a href = "https://www.youtube.com/watch?v=1lWJXDG2i0A">https://www.youtube.com/watch?v=1|WJXDG@i0A</a> </p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postAl fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Al Fievre</b></a> I used to love that when I was small, Sam!</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		
+
+
+	</div>';
+	break;
+
+case 'chocolate':
+	
+	echo
+	'<div class="contentBox type_employment">
+		<div class="postHeaderWithCaption">
+			<div class="postAccent postCommentPic postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre</a> shared a photo</div>
+				<div class="postSubHead">November 27</div>
+				<font>drowning in chocolate</font>
+			</div>
+			<div class="clear"></div>
 		</div>
+		
+		<div class="postContent employment">
+
+		
+		
+		<img src="photoSidebar/chocolate.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+		</div>
+		
+			<div id="like_employment_shopsocial">
+			<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postSam fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Kathryn B.</b></a> HAHAHAHA</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+
+	</div>';
+	break;
+
+	case 'celebrate':
+	
+	echo
+	'<div class="contentBox type_employment">
+		<div class="postHeader">
+			<div class="postAccent postCommentPic postAl fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Al Fievre shared a link</a></div>
+				<div class="postSubHead">November 27</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="postContent employment">
+
+		<p style="font-size: 13px;"><a>Eight Ways to Celebrate Thanksgivukkah!</a></p>
+		<p class="postSubHead">www.blog.sfgate.com</p>
+		<p>Talk about the holiday mash-up of a lifetime. The rare convergence of Thanksgiving and Hannukkah, aka Thanksgivukkah, is upon us. The two holidays last intersected 125 years ago and it\'ll be more th...</p>
+		
+		</div>
+		
+			<div id="like_employment_shopsocial">
+			<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+			
+		</div>';
+	break;
+
+	case 'bad_day':
+	
+	echo
+	'<div class="contentBox type_employment">
+		<div class="postHeaderWithCaption">
+			<div class="postAccent postCommentPic postMelissa fl"></div>
+			<div class="fl">
+				<div class="postHead"><a>Melissa Fievre</a> shared a photo</div>
+				<div class="postSubHead">November 27</div>
+				<font>Just found this on my phone. Such a bad day last summer!</font>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="postContent employment">
+
+		
+		
+		<img src="photoSidebar/u785.jpg" horizontal-align="center" width="490px" style="no-repeat; margin:0px auto;"></img>
+		</div>
+		
+			<div id="like_employment_shopsocial">
+			<div class="comments likeWidget">
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Like</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Comment</a>
+				&#183;
+				<a class="likeWidget" data-id="employment_shopsocial" data-action="like">Share</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postRyan fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Ryan Clayton</b></a> <a href ="http://www.flickr.com/photos/stordito/3922587392/sizes/l/">http://www.flickr.com/photos/stordito/3922587392/sizes/l/</a></p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postRyan fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Ryan Clayton</b></a> <a href = "https://www.youtube.com/watch?v=1lWJXDG2i0A">https://www.youtube.com/watch?v=1|WJXDG@i0A</a> </p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+
+
+		<div class="comments"style="text-align:left">
+		      <div class="commenterIcon postAl fl"></div>
+		      <div class="commenterComment fl">
+		        <p><b><a>Al Fievre</b></a> I used to love that when I was small, Sam!</p>
+		        <p><div class="postSubHead" style="float: left;">November 28 at 12:32pm &#183; <a>Like</a></div></p>
+		      </div>
+		      <div class="clear"></div>
+		      </div>
+		
+
+
 	</div>';
 	break;
 
