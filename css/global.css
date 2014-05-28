@@ -496,6 +496,7 @@ vertical-align: middle;
 
 .linkBox {
   width: 485px;
+  min-height: 100px;
   margin: 5px; 
   background-color:#FFFFFF;
   border: 1px solid #b3b3b3;
