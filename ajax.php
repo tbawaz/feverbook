@@ -284,7 +284,7 @@ function load(){
 			<div class="postHeader"style="text-align:left">
 				<div class="postAccent postCommentPic postSam fl"></div>
 				<div class="fl">
-					<div class="postHead"><a>Sam Waters</a> tagged <a>Al Fievre</a> and <a>2 others</a> in <a>4 photos</a></div>
+					<div class="postHead"><a>Sam Waters</a> tagged <a>Al Fievre</a> and <a>2 others</a> in <a>5 photos</a></div>
 					<div class="postSubHead">November 26</div>
 				</div>
 			<div class="clear"></div>
@@ -292,12 +292,20 @@ function load(){
 
 		<div class="postContent employment" style="text-align:left;"><p>Dance, dance, dance the night away</p>
 
-				<table style="border-spacing: 0px; margin: 0px auto;">
-				<tbody >
+				<table style="border-spacing: 0px; margin: 0px auto; padding-top: 5px;">
+				<tbody>
 				<tr>
-				<td><div class="postDance2" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
-				<td><div class="postDance1" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
-				<td><div class="postDance5" style="padding: 0px 1px; width: 163px; height: 163px; background-size: cover; display:table-cell;"></div></td>
+				<td><div class="postDance3" style="padding: 0px 1px; width: 167px; height: 167px; background-size: cover; display:table-cell;"></div></td>
+				<td><div class="postDance4" style="padding: 0px 1px; width: 167px; height: 167px; background-size: cover; display:table-cell;"></div></td>
+				<td><div class="postDance5" style="padding: 0px 1px; width: 167px; height: 167px; background-size: cover; display:table-cell;"></div></td>
+				</tr>
+				</tbody>
+				</table>
+				<table style="border-spacing: 0px; margin: 0px auto;">
+				<tbody>
+				<tr>
+				<td><div class="postDance1" style="padding: 0px 1px; width: 251px; height: 251px; background-size: cover; display:table-cell;"></div></td>
+				<td><div class="postDance2" style="padding: 0px 1px; width: 251px; height: 251px; background-size: cover; display:table-cell;"></div></td>
 				</tr>
 				</tbody>
 				</table>
@@ -558,7 +566,7 @@ function load(){
 		      <div class="commenterIcon postCommentPic postAl fl"></div>
 		      <div class="commenterComment fl">
 		        <p><b><a>Al Fievre</b></a> <a href = "https://www.youtube.com/watch?v=gmhRm_92L_8&feature=kp">https://www.youtube.com/watch?v=gmhRm_92L_8&feature=kp</a> </p>
-		        <div class="linkBox" style="width: 400px;"><img src="images/john_lennon.png" horizontal-align="center" width="400px" style="no-repeat; margin:0px auto;"></img>
+		        <div class="linkBox" style="width: 400px; display: block; margin:0px auto;"><img src="images/john_lennon.png" horizontal-align="center" width="400px" style="no-repeat; display: block; margin:0px auto;"></img>
 		        <p><a>John Lennon in Madison Square / Mother</a></p>
 		        <p><font color="#536267">www.youtube.com</font></p>
 		        </div>
@@ -617,7 +625,7 @@ function load(){
 		      <div class="commenterIcon postCommentPic postRyan fl"></div>
 		      <div class="commenterComment fl">
 		        <p><b><a>Ryan Clayton</b></a> <a href = "https://www.youtube.com/watch?v=1lWJXDG2i0A">https://www.youtube.com/watch?v=1|WJXDG@i0A</a> </p>
-		        <div class="linkBox" style="width: 400px;"><img src="images/tom_petty.png" horizontal-align="center" width="400px" style="no-repeat; margin:0px auto;"></img>
+		        <div class="linkBox" style="width: 400px; display: block; margin:0px auto;"><img src="images/tom_petty.png" horizontal-align="center" width="400px" style="no-repeat; display: block; margin:0px auto;"></img>
 		        <p><a>Tom Petty - Free Fallin\'</a></p>
 		        <p><font color="grey">Music video by Tom Petty performing Free Fallin\'. (C) 1989 UMG Recordings, Inc</font></p>
 		        <p><font color="#536267">www.youtube.com</font></p>
@@ -1017,6 +1025,13 @@ case 'chocolate':
 		        whichever browser you want. It comes with HTML files, but also the .mp4 files for audio and video, and some JSON files for data
 		        formats. You might want to check out <a href="http://www.givememydata.com">givememydata.com</a> for some cool things you can do
 		        to visualize your own information once you\'ve downloaded it!</p>
+
+		        <div class="linkBox" style="width: 450px; height: 100px; display: block; margin:0px auto;">
+				<div style="background: url(images/gmmd_Icon_475w.png) 50% 50% no-repeat; float: left; margin-right:15px; width: 100px; height: 100px;  background-size: cover;"></div>
+				<p style="font-size: 13px;"><a href="http://www.givememydata.com">Give Me My Data | A Facebook application to reclaim your </a></p>
+				<p class="postSubHead">www.givememydata.com</p>
+				<p>Give Me My Data helps you reclaim and reuse your Facebook data</p>
+				</div>
 		        <p><div class="postSubHead" style="float: left;">November 12 at 6:04pm &#183; <a>Like</a></div></p>
 		      </div>
 		      <div class="clear"></div>
