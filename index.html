@@ -81,7 +81,7 @@
           <!--<img class="startHere jeffnook" src="images/starthere.png">-->
           
       
-          <div class="jeffnook highlightSlug subInfo timeline" style="margin-left: 20px; border-left: 1px solid #e9eaed;">
+          <div class="jeffnook highlightSlug subInfo timeline selected" style="margin-left: 20px; border-left: 1px solid #e9eaed;">
             <!--<img src="images/info_brain2.jpg">-->
             <a>Timeline</a>
           </div>
@@ -89,7 +89,7 @@
         </div>
         
         <div class="fl">
-          <div class="brainmap highlightSlug subInfo archontic">
+          <div class="archontic highlightSlug subInfo">
             <!--<img src="images/info_brain2.jpg">-->
             <a>Archontic</a>
           </div>
@@ -97,7 +97,7 @@
         </div>
   
         <div class="fl">
-          <div class="brainmap highlightSlug subInfo inscription">
+          <div class="highlightSlug subInfo inscription">
             <!--<img src="images/info_brain2.jpg">-->
             <a>Inscription</a>
           </div>
@@ -105,7 +105,7 @@
         </div>
   
         <div class="fl">
-          <div class="tools highlightSlug subInfo violence">
+          <div class="highlightSlug subInfo violence">
             <!--<img src="images/info_brain2.jpg">-->
             <a>Violence</a>
           </div>
@@ -113,7 +113,7 @@
         </div>
 
         <div class="fl">
-          <div class="klout highlightSlug subInfo spectrality">
+          <div class="highlightSlug subInfo spectrality">
             <!--<img src="images/info_brain2.jpg">-->
             <a>Spectrality</a>
           </div>
@@ -303,7 +303,7 @@
 
   <div class="contentColRight">
 
-    <div id="ajax_employment_laverne_cox">
+    <div id="ajax_employment_laverne_cox" class="archontic-item violence-item">
       <div class="contentBox">
         <div class="loader" data-type="employment" data-id="laverne_cox"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
@@ -315,25 +315,25 @@
       </div>
     </div>
 
-    <div id="ajax_creative_xkcd">
+    <div id="ajax_creative_xkcd" class="archontic-item violence-item">
       <div class="contentBox">
         <div class="loader" data-type="creative" data-id="xkcd"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
     </div>
   
-    <div id="ajax_creative_happy_thanksgivukkah">
+    <div id="ajax_creative_happy_thanksgivukkah" class="inscription-item spectrality-item">
       <div class="contentBox">
         <div class="loader" data-type="creative" data-id="happy_thanksgivukkah"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
     </div>
 
-    <div id="ajax_creative_long_ride">
+    <div id="ajax_creative_long_ride" class="inscription-item">
       <div class="contentBox">
         <div class="loader" data-type="creative" data-id="long_ride"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
     </div>
 
-    <div id="ajax_creative_dance">
+    <div id="ajax_creative_dance" class="archontic-item spectrality-item">
       <div class="contentBox"> 
         <div class="loader" data-type="creative" data-id="dance"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
@@ -345,7 +345,7 @@
       </div>
     </div>
 
-    <div id="ajax_creative_heart">
+    <div id="ajax_creative_heart" class="violence-item spectrality-item">
       <div class="contentBox">
         <div class="loader" data-type="creative" data-id="heart"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
@@ -363,13 +363,13 @@
       </div>
     </div>
 
-    <div id="ajax_other_firefly">
+    <div id="ajax_other_firefly" class="violence-item">
       <div class="contentBox"> 
         <div class="loader" data-type="other" data-id="firefly"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
     </div>
 
-    <div id="ajax_employment_chocolate">
+    <div id="ajax_employment_chocolate" class="violence-item">
       <div class="contentBox"> 
         <div class="loader" data-type="employment" data-id="chocolate"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
@@ -393,25 +393,25 @@
       </div>
     </div>
 
-    <div id="ajax_employment_housing">
+    <div id="ajax_employment_housing" class="inscription-item">
       <div class="contentBox">
         <div class="loader" data-type="employment" data-id="housing"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
     </div>
     
-    <div id="ajax_employment_plath">
+    <div id="ajax_employment_plath" class="archontic-item spectrality-item">
       <div class="contentBox">
          <div class="loader" data-type="employment" data-id="plath"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
     </div>
 
-    <div id="ajax_employment_wolf">
+    <div id="ajax_employment_wolf" class="spectrality-item">
       <div class="contentBox">
          <div class="loader" data-type="employment" data-id="wolf"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
     </div>
 
-    <div id="ajax_employment_new_profile">
+    <div id="ajax_employment_new_profile" class="archontic-item spectrality-item">
       <div class="contentBox">
          <div class="loader" data-type="employment" data-id="new_profile"><img class="anim" src="/images/ajaxloader.gif"></div>
       </div>
@@ -587,20 +587,50 @@ $(function() {
     loadInfoPane('tools.php','toolsMe',true);
     _gaq.push(['_trackEvent', 'Interaction', 'Viewed', 'Tools']);
   });
-  
-  $('.jeffnook').live('click', function() {
-    loadInfoPane('jeffnook.php','jeffnookMe',true);
-    _gaq.push(['_trackEvent', 'Interaction', 'Viewed', 'Technology']);
+
+  $('.timeline').live('click', function() {
+    $('div[id^="ajax_"]:hidden').fadeIn();
+    $('.highlightSlug:not([class*=timeline])').removeClass('selected');
+    $('.timeline').addClass('selected');
+    $('div[class$="-post"]').addClass('hidden');
   });
   
-  $('.brainmap').live('click', function() {
-    loadInfoPane('brainmap.php','brainmapMe',true);
-    _gaq.push(['_trackEvent', 'Interaction', 'Viewed', 'BrainMap']);
+  $('.archontic').live('click', function() {
+    $('div[id^="ajax_"]:not([class*=archontic-item])').fadeOut();
+    $('div[id^="ajax_"][class*=archontic-item]:hidden').fadeIn();
+    $('.highlightSlug:not([class*=archontic])').removeClass('selected');
+    $('.archontic').addClass('selected');
+    $('.archontic-post').removeClass('hidden');
+    $('div[class$="-post"]:not([class*=archontic-post])').addClass('hidden');
+  });
+
+  $('.inscription').live('click', function() {
+    $('div[id^="ajax_"]:not([class*=inscription-item])').fadeOut();
+    $('div[id^="ajax_"][class*=inscription-item]:hidden').fadeIn();
+    $('.highlightSlug:not([class*=inscription])').removeClass('selected');
+    $('.inscription').addClass('selected');
+    $('.inscription-post').removeClass('hidden');
+    $('div[class$="-post"]:not([class*=inscription-post])').addClass('hidden');
+
   });
   
-  $('.klout').live('click', function() {
-    loadInfoPane('klout.php','kloutMe',true);
-    _gaq.push(['_trackEvent', 'Interaction', 'Viewed', 'Klout']);
+  $('.violence').live('click', function() {
+    $('div[id^="ajax_"]:not([class*=violence-item])').fadeOut();
+    $('div[id^="ajax_"][class*=violence-item]:hidden').fadeIn();
+    $('.highlightSlug:not([class*=violence])').removeClass('selected');
+    $('.violence').addClass('selected');
+    $('.violence-post').removeClass('hidden');
+    $('div[class$="-post"]:not([class*=violence-post])').addClass('hidden');
+
+  });
+
+  $('.spectrality').live('click', function() {
+    $('div[id^="ajax_"]:not([class*=spectrality-item])').fadeOut();
+    $('div[id^="ajax_"][class*=spectrality-item]:hidden').fadeIn();
+    $('.highlightSlug:not([class*=spectrality])').removeClass('selected');
+    $('.spectrality').addClass('selected');
+    $('.spectrality-post').removeClass('hidden');
+    $('div[class$="-post"]:not([class*=spectrality-post])').addClass('hidden');
   });
   
   $('.comingSoon').live('click', function() {

@@ -64,8 +64,35 @@ img {
 ol {
   margin: 0px;
 }
-.hidden {
+/*.hidden {
   display: none;
+}*/
+
+/*.visible{
+  -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    transition: all 1s linear;
+}*/
+
+/*.hidden {
+    width: 0; /* reset everything that might affect the size/visibility */
+    /*height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    transition: all 1s linear;
+}*/
+
+.visible {}
+
+.hidden {
+  display:none;
 }
 
 .fl {
@@ -440,6 +467,10 @@ text-align: center;
 vertical-align: middle;
 }
 
+.selected a {
+  color: #000;
+}
+
 .timeline:hover {
   /*border: 1px solid #b3b3b3;
   box-shadow: inset 0px 0px 0px 2px #FFFFFF;*/
@@ -527,6 +558,15 @@ vertical-align: middle;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 
+}
+
+.selected:hover {
+  background-color: #FFF;
+}
+
+.selected a:hover {
+  text-decoration: none;
+  cursor: default;
 }
 
 .content {
@@ -772,6 +812,10 @@ vertical-align: middle;
 
 .intermission:hover {
   background-color: #677bad;
+}
+
+.spectrality-post, .violence-post, .archontic-post, .inscription-post {
+  background-color: #C6CDF5;
 }
 
 

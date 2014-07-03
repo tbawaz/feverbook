@@ -240,6 +240,14 @@ function load(){
         <p><div class="postSubHead" style="float: left;">November 28 at 2:56pm &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
+      </div>
+      <div class="comments spectrality-post hidden">
+      <div class="commenterIcon postCommentPic postCory fl"></div>
+      <div class="commenterComment fl">
+        <p><b><a>Cory Knobel</b></a> Al brings into the conversation about the upcoming holiday some apparitional figures who, as it would seem, revisit her when thinking about the family dynamic. She inquires of her mother whether Aunt Mary and the cousins will be attending, in the context of what she would or should wear to the family gathering. This speaks to the spectral forms of family interactions past revisiting Al, suggesting the tension between their relationship with pre-transition Al and her new expressed identity. Through the archive of the Feverbook comment stream, Al points to these spectres and the anxious discourse she anticipates based on past experience.</p>
+        <p><div class="postSubHead" style="float: left;">November 30 at 8:21pm &#183; <a>Like</a></div></p>
+      </div>
+      <div class="clear"></div>
     </div>';
 	break;
 
@@ -326,7 +334,7 @@ function load(){
       <div class="commenterIcon postCommentPic postRyan fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Ryan Clayton</b></a>  Sorry I couldn\'t come out to play ... @ work super late. Call me if you need anything!</p>
-        <p><div class="postSubHead" style="float: left;">November 26 at 10:48am &#183; <a>Like</a></div></p>
+        <p><div class="postSubHead" style="float: left;">November 27 at 8:48am &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
 
@@ -335,7 +343,7 @@ function load(){
       <div class="commenterIcon postCommentPic postRyan fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Ryan Clayton</b></a> Also, is that a Van Halen reference?</p>
-        <p><div class="postSubHead" style="float: left;">November 26 at 10:49am &#183; <a>Like</a></div></p>
+        <p><div class="postSubHead" style="float: left;">November 27 at 8:49am &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
 
@@ -344,7 +352,7 @@ function load(){
       <div class="commenterIcon postCommentPic postSam fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Sam Waters</b></a> Missed you, dahling.</p>
-        <p><div class="postSubHead" style="float: left;">November 26 at 11:16am &#183; <a>Like</a></div></p>
+        <p><div class="postSubHead" style="float: left;">November 27 at 9:16am &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
     
@@ -353,7 +361,7 @@ function load(){
       <div class="commenterIcon postCommentPic postMelissa fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Melissa Fievre</b></a> Too much fun, <a>Ryan</a>. <a>Al</a> and I are feeling awful on the train ride home, but I think she\'s in a better mood. (Hi, <a>Al</a>!)</p>
-        <p><div class="postSubHead" style="float: left;">November 26 at 11:23am &#183; <a>Like</a></div></p>
+        <p><div class="postSubHead" style="float: left;">November 26 at 9:23am &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
       
@@ -362,7 +370,7 @@ function load(){
       <div class="commenterIcon postCommentPic postAl fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Al Fievre</b></a> I really needed that. Thankx Hi, <a>Melissa</a>! I\'m looking at you while I write this. Crreped out yet?</p>
-        <p><div class="postSubHead" style="float: left;">November 26 at 11:25am &#183; <a>Like</a></div></p>
+        <p><div class="postSubHead" style="float: left;">November 26 at 9:25am &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
 
@@ -371,7 +379,7 @@ function load(){
       <div class="commenterIcon postCommentPic postKathryn fl"></div>
       <div class="commenterComment fl">
         <p><b><a>Kathryn B.</b></a> Where was this? Looks like you had fun!</p>
-        <p><div class="postSubHead" style="float: left;">December 3 at 9:43am &#183; <a>Like</a></div></p>
+        <p><div class="postSubHead" style="float: left;">December 3 at 4:43pm &#183; <a>Like</a></div></p>
       </div>
       <div class="clear"></div>
 
