@@ -1617,11 +1617,12 @@ background: url('../photoSidebar/3556347723_e3d67d3a85_b.jpg') 50% 50% no-repeat
 /* lightbox formatting */
 
 #lightbox {
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 50% !important;
   left: 50%;
   width: 500px;
-  margin-left: -250px;
+  margin-top: -50px;
+  margin-left: -100px;
   background: #fff;
   z-index: 1001;
   display: none;
@@ -1641,3 +1642,5 @@ background: url('../photoSidebar/3556347723_e3d67d3a85_b.jpg') 50% 50% no-repeat
   display: none;
 }
 
+
+/* center lightbox
