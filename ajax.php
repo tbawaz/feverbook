@@ -10,9 +10,10 @@ if(isset($_POST['action']) && !empty($_POST['action'])) {
 function load(){
 	$type = $_POST['type'];
 	$id = $_POST['id'];
-	$secret = $_POST['secret'];
-	$person = $_POST['person'];
-	
+	// $secret = $_POST['secret'];
+	$secret = !empty($_POST['secret']) ? $_POST['secret'] : null;
+	// $person = $_POST['person'];
+	$person = !empty($_POST['person']) ? $_POST['person'] : null;
 	switch($id) {
 		case 'jeffnook':
 		echo
