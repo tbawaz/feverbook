@@ -645,11 +645,13 @@ $(function() {
     });
   });
 
-  if (!$.cookie('KilroyWasHere') && !isiPhone) {
-    loadInfoPane('welcome.php','addMe1',true);
-    $('.startHere').show();
-    $.cookie('KilroyWasHere','Yup',5)
-  };
+/* breaks DO ajax */
+
+  // if (!$.cookie('KilroyWasHere') && !isiPhone) {
+  //   loadInfoPane('welcome.php','addMe1',true);
+  //   $('.startHere').show();
+  //   $.cookie('KilroyWasHere','Yup',5)
+  // };
   
   $('.homeButton,.aboutButton').click( function() {
     if (isiPhone) {
